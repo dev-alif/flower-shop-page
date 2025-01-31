@@ -83,6 +83,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 48px;
 }
 
 .flower1 {
@@ -181,4 +182,45 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
+}
+
+/* latest deals section styles */
+.latest-deals{
+    height: 449px;
+    background: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer styles */
+footer{
+    background-color: #110F0F;
+    padding: 128px 0;
+}
+
+.footer-title{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer-paragraph1{
+    margin: 24px auto;
+    font-size: 18px;
+    color: white;
+    max-width: 594px;
+    text-align: center;
+}
+
+.footer-paragraph2{
+    margin: 0 auto;
+    font-size: 16px;
+    color: #8C8687;
+    max-width: 594px;
+    text-align: center;
 }
