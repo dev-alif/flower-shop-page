@@ -70,7 +70,22 @@ header {
 }
 
 .hero-right img {
-    width: 635px;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    .header{
+        flex-direction: column;
+    }
+    .hero-left, .hero-right{
+        width: 100%;
+    }
+    .hero-right img {
+        margin-top: 50px;
+    }
+    .hero-left h1 {
+        font-size: 60px;
+    }
 }
 
 /* featured flowers section styles */
@@ -129,6 +144,18 @@ header {
     font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+    .flower-container{
+        flex-direction: column;
+    }
+    .flower1, .flower2, .flower3{
+        margin-bottom: 30px;
+    }
+    .flower-names{
+        display: none;
+    }
+}
+
 /* grey section styles */
 .grey-section{
     margin-bottom: 128px;
@@ -144,6 +171,17 @@ header {
     font-size: 24px;
     font-weight: 400;
     color: #272727;
+}
+
+@media screen and (max-width: 576px) {
+    .grey-section{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .icon-box{
+        margin-bottom: 30px;
+    }
 }
 
 /* hot deal section styles */
@@ -172,6 +210,17 @@ header {
     color: #8C8687;
 }
 
+@media screen and (max-width: 576px){
+    .hot-deal{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hot-deal-right{
+        margin-top: 30px;
+    }
+}
+
 /* instagram section styles */
 
 .instagram{
@@ -182,6 +231,15 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
+}
+
+@media screen and (max-width: 576px){
+    .image-container{
+        flex-direction: column;
+    }
+    .image-container img{
+        margin-bottom: 30px;
+    }
 }
 
 /* latest deals section styles */
@@ -223,4 +281,11 @@ footer{
     color: #8C8687;
     max-width: 594px;
     text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
