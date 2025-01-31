@@ -1,15 +1,15 @@
 /* global styles */
-*{
+* {
     margin: 0;
     font-family: "Lato", serif;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
-.button{
+.button {
     padding: 20px 43px;
     background-color: #E55473;
     color: white;
@@ -19,42 +19,111 @@
     border-radius: 5px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #272727;
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section-paragraph {
+    margin: 24px auto;
+    font-size: 18px;
+    color: #8C8687;
+    max-width: 594px;
+    text-align: center;
+}
+
 /* hero section styles */
-header{
+header {
     background-color: #FCEEF1;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero-left{
+.hero-left {
     width: 45%;
 }
 
-.hero-left h1{
+.hero-left h1 {
     font-size: 80px;
     font-weight: bolder;
     color: #272727;
 }
 
-.hero-left p{
+.hero-left p {
     font-size: 18px;
     color: #8C8687;
     margin: 32px 0;
 }
 
-.hero-right{
+.hero-right {
     width: 50%;
 }
 
-.hero-right img{
+.hero-right img {
     width: 635px;
+}
+
+/* featured flowers section styles */
+.featured-flowers {
+    margin-top: 178px;
+    margin-bottom: 300px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower1 {
+    background-color: #F2DEE7;
+    border-radius: 50% 50% 0 0;
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.flower2 {
+    background-color: #DAEFF1;
+    border-radius: 50% 50% 0 0;
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.flower3 {
+    background-color: #E3ECDB;
+    border-radius: 50% 50% 0 0;
+    width: 464px;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.flower-names{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.flower-names h5{
+    width: 464px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
